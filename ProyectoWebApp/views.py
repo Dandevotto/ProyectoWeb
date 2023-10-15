@@ -1,12 +1,9 @@
 from django.shortcuts import render, HttpResponse
 
+
 # Vista del home
 def home(request):
     return render(request, "ProyectoWebApp/home.html")
-
-# Vista de servicios
-def services(request):
-    return render(request, "ProyectoWebApp/servicios.html")
 
 # Vista de tienda
 def tienda(request):
